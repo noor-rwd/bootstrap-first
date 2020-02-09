@@ -1,0 +1,54 @@
+.one{
+	height: 150px;
+	background-color: yellow;
+
+}
+.two{
+	height: 150px;
+	background-color: green;
+
+}
+
+.three{
+	height: 150px;
+	background-color: red;
+
+}
+.four{
+	height: 150px;
+	background-color: pink;
+
+}
+.card-title{
+	height: 54px;
+}
+.contact{
+	padding: 10px;
+}
+/*media query*/
+
+/*mobile device*/
+@media ( min-width: 0px) and (max-width: 500px) {
+ .one{
+ 	background-color: maroon;
+  }
+  .card{
+  	margin-bottom: 10px;
+  }
+}
+
+/*small device*/
+@media (min-width: 501px) and (max-width: 768px) {
+	.one{
+		background-color: blue;
+	}
+}
+ /*medium device*/
+@media (min-width: 768.01px) and (max-width: 1200px) {
+
+}
+/*large device*/
+@media ( min-width: 1201px){
+
+}
+
